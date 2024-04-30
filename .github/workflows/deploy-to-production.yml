@@ -1,0 +1,45 @@
+name: Deploy Swift Package to Cloudflare Pages
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  build-and-deploy:
+    permissions:
+      contents: read
+      deployments: write
+    runs-on: macos-14
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Swift
+      uses: swift-actions/setup-swift@v2
+      with:
+        swift-version: '5.9' # Set the Swift version you need
+
+    - name: Build DocC
+      run: |
+        swift package --allow-writing-to-directory ./ \
+        generate-documentation --target NotPrivateApis \
+        --disable-indexing \
+        --transform-for-static-hosting \
+        --hosting-base-path / \
+        --output-path ./Build/
+
+    - name: Publish to Cloudflare Pages
+      uses: cloudflare/pages-action@v1
+      with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: 1678d1e70dbdbf026e3ca056f893e76b
+        projectName: indiedevawards
+        directory: ./Build/
+        # Optional: Enable this if you want to have GitHub Deployments triggered
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        # Optional: Switch what branch you are publishing to.
+        # By default this will be the branch which triggered this workflow
+        branch: main

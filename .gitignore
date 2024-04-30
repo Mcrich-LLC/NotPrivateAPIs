@@ -89,3 +89,6 @@ fastlane/test_output
 
 iOSInjectionProject/
 .DS_Store
+/.docc-build/*
+/Sources/NotPrivateApis/.docc-build/*
+/Sources/NotPrivateApis/NotPrivateApis.docc/.docc-build
