@@ -1,7 +1,8 @@
 # ``NotPrivateApis``
 
 @Metadata {
-   @DisplayName("NotPrivateApis")
+    @TechnologyRoot
+    @DisplayName("NotPrivateApis")
 }
 
 Totally Not Uncovering Private Apis
