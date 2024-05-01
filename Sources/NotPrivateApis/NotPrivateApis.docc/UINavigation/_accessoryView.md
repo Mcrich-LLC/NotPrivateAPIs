@@ -1,4 +1,5 @@
 # \_accessoryView 
+Include an inline large view in your `UINavigationBar`
 
 @Metadata {
     @TitleHeading("UINavigationBar/_UINavigationBarLargeTitleView")

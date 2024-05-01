@@ -1,5 +1,5 @@
 # setAttributedPlaceholder(\_:)
-
+A placeholder for UITextViews
 
 @Metadata {
     @TitleHeading("UITextView")

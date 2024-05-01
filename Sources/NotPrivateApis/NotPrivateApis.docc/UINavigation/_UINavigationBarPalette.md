@@ -1,4 +1,5 @@
 # \_UINavigationBarPalette 
+Add an accent selection color to `UINavigationBar`
 
 @Metadata {
     @TitleHeading("UINavigationBar")
@@ -6,7 +7,7 @@
 
 ## Overview
 
-This let's you add a "palette" below a UINavigationBar as per Calendar and Fitness.
+This let's you add a "palette" below a `UINavigationBar` as per Calendar and Fitness.
 
 ![An example of this UI](_UINavigationBarPalette-Video)
 

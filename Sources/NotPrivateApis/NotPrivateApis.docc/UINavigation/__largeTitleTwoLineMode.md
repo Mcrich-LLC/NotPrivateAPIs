@@ -1,4 +1,5 @@
 # \_ \_largeTitleTwoLineMode 
+Multiple lines for a `UINavigationItem`
 
 @Metadata {
     @TitleHeading("UINavigationItem")
