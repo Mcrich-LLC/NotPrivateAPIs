@@ -16,3 +16,7 @@ NotPrivateApis is a project to _**not**_ document Apple's Private Apis to publis
 ### UIAlertController
 
 - <doc:_setHeaderContentViewController>
+
+### UINavigationBar
+
+- <doc:_UINavigationBarLargeTitleView>
