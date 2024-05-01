@@ -2,7 +2,7 @@
 Include an inline large view in your `UINavigationBar`
 
 @Metadata {
-    @TitleHeading("UINavigationBar/_UINavigationBarLargeTitleView")
+    @TitleHeading("Instance Property")
 }
 
 ## Overview

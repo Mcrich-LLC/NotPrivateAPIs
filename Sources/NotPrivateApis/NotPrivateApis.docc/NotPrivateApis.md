@@ -19,9 +19,8 @@ NotPrivateApis is a project to _**not**_ document Apple's Private Apis to publis
 
 ### UINavigation
 
-- <doc:_accessoryView>
-- <doc:_UINavigationBarPalette>
-- <doc:__largeTitleTwoLineMode>
+- <doc:UINavigationBar>
+- <doc:UINavigationItem>
 
 ### UITextView
 

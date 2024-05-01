@@ -1,7 +1,7 @@
 # \_setHeaderContentViewController(\_:)
 
 @Metadata {
-    @TitleHeading("UIAlertController")
+    @TitleHeading("Instance Method")
 }
 
 Set any UIViewController as a custom header for your alert

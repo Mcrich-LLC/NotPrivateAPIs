@@ -2,7 +2,7 @@
 A placeholder for UITextViews
 
 @Metadata {
-    @TitleHeading("UITextView")
+    @TitleHeading("Instance Method")
 }
 
 ## Overview

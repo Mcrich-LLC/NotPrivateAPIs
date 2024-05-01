@@ -2,7 +2,7 @@
 Multiple lines for a `UINavigationItem`
 
 @Metadata {
-    @TitleHeading("UINavigationItem")
+    @TitleHeading("Instance Property")
 }
 
 ## Overview
