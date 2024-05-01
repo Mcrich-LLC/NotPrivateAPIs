@@ -1,8 +1,8 @@
 # ``NotPrivateApis``
 
 @Metadata {
-    @TechnologyRoot
     @DisplayName("NotPrivateApis")
+    @TitleHeading("Tool")
 }
 
 Totally Not Uncovering Private Apis
@@ -10,3 +10,9 @@ Totally Not Uncovering Private Apis
 ## Overview
 
 NotPrivateApis is a project to _**not**_ document Apple's Private Apis to publish what Apple will not.
+
+## Topics
+
+### UIAlertController
+
+- <doc:_setHeaderContentViewController>
