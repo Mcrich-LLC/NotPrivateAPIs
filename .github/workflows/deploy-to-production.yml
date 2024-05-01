@@ -28,7 +28,7 @@ jobs:
         generate-documentation --target NotPrivateApis \
         --disable-indexing \
         --transform-for-static-hosting \
-        --hosting-base-path / \
+        --experimental-enable-custom-templates \
         --output-path ./Build/
 
     - name: Publish to Cloudflare Pages
