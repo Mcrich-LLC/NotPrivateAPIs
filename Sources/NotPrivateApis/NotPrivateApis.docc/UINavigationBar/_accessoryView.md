@@ -10,11 +10,11 @@ UINavigationBar’s \_UINavigationBarLargeTitleView subview has an \_accessoryVi
 
 This is used in all sorts of system apps like Health, Music, and Podcasts.
 
-![An example of this UI](_UINavigationBarLargeTitleView-Video)
+![An example of this UI](_accessoryView-Video)
 
 ## Method
 
-We can use this code to present a `UIAlertController` with our custom header:
+We can use this code to add our accessory to the `UINavigationBar`:
 ```swift
 let accessoryView = ProfileButton(type: .system)
 accessoryView.frame.size = CGSize(width: 34, height: 34)
@@ -25,7 +25,6 @@ navigationItem.perform(Selector(("_setLargeTitleAccessoryView:")), with: accesso
 
 Here is a full example of this implementation:
 ```swift
-import UIKit
 class ViewController: UITableViewController {
     override func viewDidLoad() {
         let accessoryView = ProfileButton(type: .system)

@@ -20,3 +20,4 @@ NotPrivateApis is a project to _**not**_ document Apple's Private Apis to publis
 ### UINavigationBar
 
 - <doc:_UINavigationBarLargeTitleView>
+- <doc:_UINavigationBarPalette>
