@@ -1,7 +1,7 @@
 # ``NotPrivateAPIs``
 
 @Metadata {
-    @DisplayName("NotPrivateApis")
+    @DisplayName("NotPrivateAPIs")
     @TitleHeading("Tool")
 }
 
