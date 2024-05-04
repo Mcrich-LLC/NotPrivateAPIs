@@ -28,12 +28,12 @@ replace_in_files('./Build', href_regex_pattern, href_replacement)
 src_regex_pattern = br'(?:src)\s*=\s*["\']?\s*'
 src_replacement = b'src="https://notprivateapis.pages.dev'
 
-# Replace in all files in the specified directory and below
+# # Replace in all files in the specified directory and below
 replace_in_files('./Build', src_regex_pattern, src_replacement)
 
 # Replace for https://notprivateapis.pages.devhttps://
 http_regex_pattern = br'https:\/\/notprivateapis\.pages\.devhttps:\/\/'
-http_replacement = b'src="https://'
+http_replacement = b'https://'
 
 # Replace in all files in the specified directory and below
 replace_in_files('./Build', http_regex_pattern, http_replacement)
