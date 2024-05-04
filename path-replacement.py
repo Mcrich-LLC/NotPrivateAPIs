@@ -6,9 +6,6 @@ def replace_in_files(root_dir, regex_pattern, replacement):
     for root, _, files in os.walk(root_dir):
         for file in files:
             file_path = os.path.join(root, file)
-            # Check if the file ends with .js and ignore it
-            if file_path.endswith('.js') or file_path.endswith('.css'):
-                continue
             # Process only regular files
             if os.path.isfile(file_path):
                 # Read the file in binary mode
@@ -31,7 +28,7 @@ replace_in_files('./Build', href_regex_pattern, href_replacement)
 src_regex_pattern = br'(?:src)\s*=\s*["\']?\s*'
 src_replacement = b'src="https://notprivateapis.pages.dev'
 
-# Replace in all files in the specified directory and below
+# # Replace in all files in the specified directory and below
 replace_in_files('./Build', src_regex_pattern, src_replacement)
 
 # Replace for https://notprivateapis.pages.devhttps://
