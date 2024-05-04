@@ -10,7 +10,7 @@ Totally Not Uncovering Private Apis
 
 ## Overview
 
-NotPrivateApis is _**not**_ a project to document Apple's Private Apis and publish what Apple will not.
+NotPrivateAPIs is _**not**_ a project to document Apple's Private Apis and publish what Apple will not.
 
 ## Topics
 
