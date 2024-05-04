@@ -30,7 +30,7 @@ jobs:
         --transform-for-static-hosting \
         --experimental-enable-custom-templates \
         --hosting-base-path /documentation \
-        --output-path ./Build/documentation/
+        --output-path ./Build/
 
     - name: Publish to Cloudflare Pages
       uses: cloudflare/pages-action@v1
