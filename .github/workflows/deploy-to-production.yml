@@ -31,9 +31,9 @@ jobs:
         --experimental-enable-custom-templates \
         --output-path ./Build/
     
-    - name: Prepare relative files
-      run: |
-        python3 ./path-replacement.py
+    # - name: Prepare relative files
+    #   run: |
+    #     python3 ./path-replacement.py
 
     - name: Publish to Cloudflare Pages
       uses: cloudflare/pages-action@v1
