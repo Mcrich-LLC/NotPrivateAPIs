@@ -13,17 +13,14 @@ let package = Package(
     ],
     dependencies: [
         // other dependencies
-        .package(url: "https://github.com/apple/swift-docc-plugin", branch: "main"),
-        .package(url: "https://github.com/apple/swift-markdown.git", branch: "main"),
+        .package(url: "https://github.com/apple/swift-docc-plugin", branch: "main")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "NotPrivateAPIs",
-            dependencies: [
-                .product(name: "Markdown", package: "swift-markdown"),
-            ]
+            dependencies: []
         )
     ]
 )
