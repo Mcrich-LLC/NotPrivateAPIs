@@ -1,4 +1,4 @@
-# ``NotPrivateApis``
+# ``NotPrivateAPIs``
 
 @Metadata {
     @DisplayName("NotPrivateApis")
