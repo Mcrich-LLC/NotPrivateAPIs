@@ -13,15 +13,15 @@ NotPrivateApis is a project to _**not**_ document Apple's Private Apis to publis
 
 ## Topics
 
-### UIAlertController
+### UIKit
 
-- <doc:_setHeaderContentViewController>
+- <doc:UIAlertController>
 
-### UINavigation
+<!--### UINavigation-->
 
 - <doc:UINavigationBar>
 - <doc:UINavigationItem>
 
-### UITextView
+<!--### UITextView-->
 
-- <doc:setAttributedPlaceholder>
+- <doc:UITextView>
