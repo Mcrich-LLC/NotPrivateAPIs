@@ -2,6 +2,7 @@
 
 @Metadata {
     @TitleHeading("Instance Method")
+    @PageColor(red)
 }
 
 Apply a variable blur overlay to a view.

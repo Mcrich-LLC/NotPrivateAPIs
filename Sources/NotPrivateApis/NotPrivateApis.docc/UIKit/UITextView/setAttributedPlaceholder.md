@@ -3,6 +3,7 @@ A placeholder for UITextViews
 
 @Metadata {
     @TitleHeading("Instance Method")
+    @PageColor(red)
 }
 
 ## Overview

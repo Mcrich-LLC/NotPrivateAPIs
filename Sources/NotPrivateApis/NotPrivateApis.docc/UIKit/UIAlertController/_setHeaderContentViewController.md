@@ -2,6 +2,7 @@
 
 @Metadata {
     @TitleHeading("Instance Method")
+    @PageColor(red)
 }
 
 Set any UIViewController as a custom header for your alert

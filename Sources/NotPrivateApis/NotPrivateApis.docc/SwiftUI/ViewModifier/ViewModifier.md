@@ -9,6 +9,7 @@
     @Available(tvOS, introduced: "13.0")
     @Available(watchOS, introduced: "6.0")
     @Available(visionOS, introduced: "1.0")
+    @PageColor(orange)
 }
 A modifier that you apply to a view or another view modifier, producing a different version of the original value.
 

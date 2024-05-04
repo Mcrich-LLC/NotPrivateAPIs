@@ -3,6 +3,7 @@ Multiple lines for a `UINavigationItem`
 
 @Metadata {
     @TitleHeading("Instance Property")
+    @PageColor(green)
 }
 
 ## Overview

@@ -3,6 +3,7 @@ Add an accent selection color to `UINavigationBar`
 
 @Metadata {
     @TitleHeading("Class")
+    @PageColor(blue)
 }
 
 ## Overview

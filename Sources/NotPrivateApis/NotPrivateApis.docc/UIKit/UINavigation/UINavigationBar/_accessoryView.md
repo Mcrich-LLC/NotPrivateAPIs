@@ -3,6 +3,7 @@ Include an inline large view in your `UINavigationBar`
 
 @Metadata {
     @TitleHeading("Instance Property")
+    @PageColor(green)
 }
 
 ## Overview

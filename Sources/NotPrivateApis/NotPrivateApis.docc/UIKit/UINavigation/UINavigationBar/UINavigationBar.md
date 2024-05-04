@@ -7,6 +7,7 @@
     @Available("Mac Catalyst", introduced: "13.1")
     @Available(tvOS, introduced: "9.0")
     @Available(visionOS, introduced: "1.0")
+    @PageColor(blue)
 }
 Navigational controls that display in a bar along the top of the screen, usually in conjunction with a navigation controller.
 

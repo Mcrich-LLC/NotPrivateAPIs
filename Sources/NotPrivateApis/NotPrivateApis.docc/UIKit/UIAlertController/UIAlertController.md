@@ -7,6 +7,7 @@
     @Available("Mac Catalyst", introduced: "13.1")
     @Available(tvOS, introduced: "9.0")
     @Available(visionOS, introduced: "1.0")
+    @PageColor(blue)
 }
 An object that displays an alert message.
 

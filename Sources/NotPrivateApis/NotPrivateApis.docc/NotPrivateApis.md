@@ -3,7 +3,7 @@
 @Metadata {
     @DisplayName("NotPrivateAPIs")
     @TitleHeading("Tool")
-    @PageColor(orange)
+    @PageColor(purple)
 }
 
 Totally Not Uncovering Private Apis
