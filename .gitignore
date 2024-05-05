@@ -93,3 +93,4 @@ iOSInjectionProject/
 /Sources/NotPrivateApis/.docc-build/*
 /Sources/NotPrivateApis/NotPrivateApis.docc/.docc-build
 Package.resolved
+/DocBuild

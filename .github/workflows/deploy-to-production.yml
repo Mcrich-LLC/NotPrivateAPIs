@@ -24,13 +24,7 @@ jobs:
 
     - name: Build DocC
       run: |
-        mkdir ./Build && swift package --allow-writing-to-directory ./ \
-        generate-documentation --target NotPrivateAPIs \
-        --disable-indexing \
-        --transform-for-static-hosting \
-        --experimental-enable-custom-templates \
-        --hosting-base-path /r \
-        --output-path ./Build/r/
+        sh ./build-site.sh
     
     # - name: Prepare relative files
     #   run: |
