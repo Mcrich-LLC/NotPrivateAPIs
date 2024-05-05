@@ -19,3 +19,7 @@ cp -r './Main Site Sources/' ./Build/ && swift package --allow-writing-to-direct
     --output-path ./DocBuild \
 
 cp -nr ./DocBuild/. ./Build/ || true
+
+if [ -d "./DocBuild" ]; then
+    rm -rf ./DocBuild
+fi
