@@ -29,7 +29,8 @@ jobs:
         --disable-indexing \
         --transform-for-static-hosting \
         --experimental-enable-custom-templates \
-        --output-path ./Build/
+        --hosting-base-path /d \
+        --output-path ./Build/d/
     
     # - name: Prepare relative files
     #   run: |
