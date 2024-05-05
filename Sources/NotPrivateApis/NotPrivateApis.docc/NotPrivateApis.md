@@ -24,3 +24,7 @@ NotPrivateAPIs is _**not**_ a project to document Apple's Private Apis and publi
 ### SwiftUI
 
 - <doc:ViewModifier>
+
+### NSObject
+
+- <doc:ByDevice>
