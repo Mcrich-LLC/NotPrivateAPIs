@@ -24,7 +24,7 @@ jobs:
 
     - name: Build DocC
       run: |
-        swift package --allow-writing-to-directory ./ \
+        mkdir ./Build && swift package --allow-writing-to-directory ./ \
         generate-documentation --target NotPrivateAPIs \
         --disable-indexing \
         --transform-for-static-hosting \
