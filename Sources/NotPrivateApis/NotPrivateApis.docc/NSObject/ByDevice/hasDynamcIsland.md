@@ -10,7 +10,7 @@ Detect if a device has the Dynamic Island.
 
 `hasDynamicIsland` is a property of [`ByDevice`](<doc:ByDevice>) that can provide a non-hardcoded boolean value of whether or not a device has the Dynamic Island
 
-> Warning: It is unknown when this property of `ByDevice` was added, and to which operating systems, testing is required before production use. `ByDevice` and/or `hasDynamicIsland` may be removed at any time.
+> Warning: It is unknown when this property of `ByDevice` was added, and exatly which operating systems and versions support it. Testing is required before production use, and `ByDevice` and/or `hasDynamicIsland` may be removed at any time.
 
 ## Method
 

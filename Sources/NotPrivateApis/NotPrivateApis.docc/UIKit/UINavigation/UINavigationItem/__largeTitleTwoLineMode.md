@@ -8,7 +8,9 @@ Multiple lines for a `UINavigationItem`
 
 ## Overview
 
-You can achieve this two line large title in your navigation bar very easily with this extension of UINavigationItem.
+You can achieve this two line large title in your navigation bar very easily with this extension of [`UINavigationItem`](<doc:UINavigationItem>).
+
+> Warning: It is unknown when `__largeTitleTwoLineMode` was added to `UINavigationItem` and exactly which operating systems/versions support it. Testing is required before release into production and `__largeTitleTwoLineMode` may be removed in the future.
 
 ![An example of this UI](__largeTitleTwoLineMode-Image)
 

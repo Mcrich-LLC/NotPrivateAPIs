@@ -17,6 +17,8 @@ A navigation item always reflects information about its associated view controll
 The [`backBarButtonItem`](https://developer.apple.com/documentation/uikit/uinavigationitem/1624958-backbarbuttonitem) property of a navigation item reflects the Back button you want to display when the current view controller is just below the topmost view controller. The Back button doesn’t appear when the current view controller is topmost.
 When specifying buttons for a navigation item, you must use [`UIBarButtonItem`](https://developer.apple.com/documentation/uikit/uibarbuttonitem) objects. If you want to display custom views in the navigation bar, you must wrap those views inside a [`UIBarButtonItem`](https://developer.apple.com/documentation/uikit/uibarbuttonitem) object before adding them to the navigation item.
 
+Full Documentation [Here](https://developer.apple.com/documentation/uikit/UINavigationItem)
+
 ## Topics
 
 - <doc:__largeTitleTwoLineMode>

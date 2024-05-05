@@ -35,6 +35,8 @@ In iOS 6 and later, if you assign a value to this view’s [`restorationIdentifi
 During the next launch cycle, the view attempts to restore these properties to their saved values. If the selection range can’t be applied to the text in the restored view, no text is selected. For more information about how state preservation and restoration works, see [App Programming Guide for iOS](https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072).
 For design guidance, see [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/components/content/text-views/).
 
+Full Documentation [Here](https://developer.apple.com/documentation/uikit/UITextView)
+
 ## Topics
 
 - <doc:setAttributedPlaceholder>

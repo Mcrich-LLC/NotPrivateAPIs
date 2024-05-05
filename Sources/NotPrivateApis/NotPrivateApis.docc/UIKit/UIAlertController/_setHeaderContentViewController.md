@@ -9,16 +9,18 @@ Set any UIViewController as a custom header for your alert
 
 ## Overview
 
-UIAlertController's `_setHeaderContentViewController(_:)` method lets you set any UIViewController as a custom header for your alert.
+[`UIAlertController`](<doc:UIAlertController>)'s `_setHeaderContentViewController(_:)` method lets you set any [`UIViewController`](https://developer.apple.com/documentation/uikit/UIViewController) as a custom header for your alert.
 
 Apple use this in the new Journal app's UI to present a date picker in an action sheet, as pointed out in 
 [lickability](https://x.com/lickability/status/1775577442117190067)'s design critique.
+
+> Warning: It is unknown when `_setHeaderContentViewController(_:)` was added to `UIAlertController` and exactly which operating systems/versions support it. Testing is required before release into production and `_setHeaderContentViewController(_:)` may be removed in the future.
 
 ![An example of this UI](_setHeaderContentViewController-Video)
 
 ## Method
 
-We can use this code to present a `UIAlertController` with our custom header:
+We can use this code to present a [`UIAlertController`](<doc:UIAlertController>) with our custom header:
 ```swift
 let selector = NSSelectorFromString("_setHeaderContentViewController:")
 let headerContentViewController = CalendarViewController()

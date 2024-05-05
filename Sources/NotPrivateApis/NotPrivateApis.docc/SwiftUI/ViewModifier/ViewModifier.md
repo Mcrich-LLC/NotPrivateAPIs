@@ -47,6 +47,8 @@ Text("Downtown Bus")
 ```
 ![A screenshot showing the image of a bus with a caption reading Downtown Bus](ViewModifier-Image)
 
+Full Documentation [Here](https://developer.apple.com/documentation/swiftui/ViewModifier)
+
 ## Topics
 
 - <doc:variableBlur>

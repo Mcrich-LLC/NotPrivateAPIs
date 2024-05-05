@@ -8,7 +8,9 @@ Add an accent selection color to `UINavigationBar`
 
 ## Overview
 
-This let's you add a "palette" below a `UINavigationBar` as per Calendar and Fitness.
+This let's you add a "palette" below a [`UINavigationBar`](<doc:UINavigationBar>) as per Calendar and Fitness.
+
+> Warning: It is unknown when `_UINavigationBarPalette` was added to `UINavigationBar` and exactly which operating systems/versions support it. Testing is required before release into production and `_UINavigationBarPalette` may be removed in the future.
 
 ![An example of this UI](_UINavigationBarPalette-Video)
 

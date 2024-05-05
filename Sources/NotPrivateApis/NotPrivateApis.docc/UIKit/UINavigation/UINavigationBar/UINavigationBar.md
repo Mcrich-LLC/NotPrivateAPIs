@@ -87,6 +87,8 @@ Navigation bars are accessible by default. The default accessibility trait for a
 With VoiceOver enabled on an iOS device, after the user navigates to a new view in the hierarchy, VoiceOver reads the navigation bar’s title, followed by the name of the left bar button item. When the user taps an element in a navigation bar, VoiceOver reads the name and the type of the element; for example, "General back button," "Keyboard heading," and "Edit button."
 For general information about making your interface accessible, see [Accessibility Programming Guide for iOS](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/iPhoneAccessibility/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008785).
 
+Full Documentation [Here](https://developer.apple.com/documentation/uikit/UINavigationBar)
+
 ## Topics
 
 - <doc:_accessoryView>

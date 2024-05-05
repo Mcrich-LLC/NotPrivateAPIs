@@ -8,9 +8,11 @@ Include an inline large view in your `UINavigationBar`
 
 ## Overview
 
-UINavigationBar’s \_UINavigationBarLargeTitleView subview has an \_accessoryView property that acts as a sort of bar button item that aligns with the large title label.
+[`UINavigationBar`](<doc:UINavigationBar>)’s \_UINavigationBarLargeTitleView subview has an \_accessoryView property that acts as a sort of bar button item that aligns with the large title label.
 
 This is used in all sorts of system apps like Health, Music, and Podcasts.
+
+> Warning: It is unknown when `_accessoryView` and `_UINavigationBarLargeTitleView` were added to `UINavigationBar` and exactly which operating systems/versions support it. Testing is required before release into production and these properties may be removed in the future.
 
 ![An example of this UI](_accessoryView-Video)
 

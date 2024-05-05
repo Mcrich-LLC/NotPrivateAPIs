@@ -8,7 +8,9 @@ A placeholder for UITextViews
 
 ## Overview
 
-Adding a placeholder string to a UITextView. Has been possible for a long time with UITextField, but for some reason not (publicly) with the text view counterpart. No more subclassing UITextView and manually showing/hiding a UILabel 
+Adding a placeholder string has been possible for a long time with [`UITextField`](https://developer.apple.com/documentation/uikit/UITextField), but for some reason not (publicly) with the [`UITextView`](<doc:UITextView>) counterpart. No more subclassing [`UITextView`](<doc:UITextView>) and manually showing/hiding a [`UILabel`](https://developer.apple.com/documentation/uikit/UILabel)
+
+> Warning: It is unknown when `setAttributedPlaceholder(_:)` was added to `UITextView` and exactly which operating systems/versions support it. Testing is required before release into production and `setAttributedPlaceholder(_:)` may be removed in the future.
 
 ![An example of this UI](setAttributedPlaceholder-Video)
 
