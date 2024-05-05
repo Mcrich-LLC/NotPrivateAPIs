@@ -35,7 +35,7 @@ jobs:
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: 1678d1e70dbdbf026e3ca056f893e76b
-        projectName: notprivateapis-docs
+        projectName: notprivateapis
         directory: ./Build/
         # Optional: Enable this if you want to have GitHub Deployments triggered
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
