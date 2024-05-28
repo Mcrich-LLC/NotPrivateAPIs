@@ -36,6 +36,8 @@ present(alertController, animated: true)
 
 Here is a full example of this implementation:
 ```swift
+import UIKit
+
 class ViewController: UIViewController {
     // MARK: - init(nibName:bundle:)
     override init(nibName: String?, bundle: Bundle?) {
