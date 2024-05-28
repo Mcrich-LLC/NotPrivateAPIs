@@ -29,6 +29,8 @@ navigationItem.perform(Selector(("_setLargeTitleAccessoryView:")), with: accesso
 
 Here is a full example of this implementation:
 ```swift
+import UIKit
+
 class ViewController: UITableViewController {
     override func viewDidLoad() {
         let accessoryView = ProfileButton(type: .system)

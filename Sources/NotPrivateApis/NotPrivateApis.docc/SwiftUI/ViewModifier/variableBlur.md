@@ -28,6 +28,8 @@ We can use this code to add the blur effect:
 
 Here is a full example of this implementation:
 ```swift
+import SwiftUI
+
 struct ContentView: View {
     @State private var notifyMeAbout: NotifyMeAboutType = .anything
     @State private var playNotificationSounds = false

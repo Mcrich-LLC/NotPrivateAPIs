@@ -18,6 +18,8 @@ Adding a placeholder string has been possible for a long time with [`UITextField
 
 Here is a full example of this implementation:
 ```swift
+import UIKit
+
 class TextViewController: UIViewController (
     override func viewDidLoad) {
         super.viewDidLoad()

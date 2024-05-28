@@ -18,6 +18,8 @@ You can achieve this two line large title in your navigation bar very easily wit
 
 Here is the mentioned extension:
 ```swift
+import UIKit
+
 extension UINavigationItem {
     var largeTitleTwoLineMode: Int {
         get {

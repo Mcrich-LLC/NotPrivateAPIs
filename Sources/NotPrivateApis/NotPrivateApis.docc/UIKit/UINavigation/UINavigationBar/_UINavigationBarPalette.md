@@ -18,6 +18,8 @@ This let's you add a "palette" below a [`UINavigationBar`](<doc:UINavigationBar>
 
 Here is a full example of this implementation:
 ```swift
+import UIKit
+
 class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
