@@ -40,6 +40,7 @@ builder.insertChild(newMenu, atStartOfMenu: .file)
 ```
 For examples of how you use UIMenu, see [Adding Menus and Shortcuts to the Menu Bar and User Interface](https://developer.apple.com/documentation/uikit/uicommand/adding_menus_and_shortcuts_to_the_menu_bar_and_user_interface).
 
+Full Documentation [Here](https://developer.apple.com/documentation/uikit/uimenu)
 
 ## Topics
 
