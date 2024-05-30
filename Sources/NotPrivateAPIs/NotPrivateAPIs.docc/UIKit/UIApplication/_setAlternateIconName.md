@@ -14,17 +14,17 @@ Set an alternate app icon without an alert
 
 ## Overview
 
-`_setAlternateAppIcon(\_:completionHandler:)` is a completely private function in UIKit which is actually responsible for setting an app's alternate icon. According to [Bryce Bostwick](https://bryce.co), the typical `setAlternateAppIcon(\_:completionHandler:)` just calls `_setAlternateAppIcon(\_:completionHandler:)` and then adds the alert into the handling flow. 
+`_setAlternateAppIcon(_:completionHandler:)` is a completely private function in UIKit which is actually responsible for setting an app's alternate icon. According to [Bryce Bostwick](https://bryce.co), the typical `setAlternateAppIcon(_:completionHandler:)` just calls `_setAlternateAppIcon(_:completionHandler:)` and then adds the alert into the handling flow. 
 
-> Note: We think that it is important to note that Bostwick also discovered that `_setAlternateAppIcon(_:)` ultimately calls the function `setAlternateIconName(\_:completionHandler:)` in the completely private class called LSApplicationProxy.
+> Note: We think that it is important to note that Bostwick also discovered that `_setAlternateAppIcon(_:)` ultimately calls the function `setAlternateIconName(_:completionHandler:)` in the completely private class called LSApplicationProxy.
 
-> Warning: It is unknown when `_setAlternateAppIcon(_:)` became the backbone of `setAlternateAppIcon(\_:completionHandler:)` and exactly which operating systems/versions support it. Testing is required before release into production and `_setAlternateAppIcon(\_:completionHandler:)` may be removed in the future. 
+> Warning: It is unknown when `_setAlternateAppIcon(_:completionHandler:)` became the backbone of `setAlternateAppIcon(_:completionHandler:)` and exactly which operating systems/versions support it. Testing is required before release into production and `_setAlternateAppIcon(_:completionHandler:)` may be removed in the future. 
 
-> Note: Given that `setAlternateAppIcon(\_:completionHandler:)` was added in iOS 10.3, we can speculate that it supports iOS 10.3+ 
+> Note: Given that `setAlternateAppIcon(_:completionHandler:)` was added in iOS 10.3, we can speculate that it supports iOS 10.3+ 
 
 For more information, watch Bostwick's [video](https://www.youtube.com/watch?v=KDVibKGtSVI) on the subject.
 
-See the full documentation on [`setAlternateAppIcon(_:)`](https://developer.apple.com/documentation/uikit/uiapplication/2806818-setalternateiconname)
+See the full documentation on [`setAlternateAppIcon(_:completionHandler:)`](https://developer.apple.com/documentation/uikit/uiapplication/2806818-setalternateiconname)
 
 ## Adding the Function to Swift
 

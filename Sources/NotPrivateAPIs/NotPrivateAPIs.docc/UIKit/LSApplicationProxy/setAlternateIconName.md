@@ -14,7 +14,7 @@ Set an alternate app icon without an alert
 
 ## Overview
 
-`setAlternateIconName(\_:completionHandler:)` is a completely private function in UIKit which is actually responsible for setting an app's alternate icon. According to [Bryce Bostwick](https://bryce.co), this is called down the chain by [`_setAlternateIconName(_:completionHandler:)`](<doc:_setAlternateIconName>).
+`setAlternateIconName(_:completionHandler:)` is a completely private function in UIKit which is actually responsible for setting an app's alternate icon. According to [Bryce Bostwick](https://bryce.co), this is called down the chain by [`_setAlternateIconName(_:completionHandler:)`](<doc:_setAlternateIconName>).
 
 > Note: We think that it is important to note that Bostwick also discovered that `setAlternateIconName(_:completionHandler:)` ultimately calls the function `setAlternateIconName(_:completionHandler:)` in the completely private class called LSApplicationProxy.
 
