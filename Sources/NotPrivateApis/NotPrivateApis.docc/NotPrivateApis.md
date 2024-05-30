@@ -17,6 +17,7 @@ NotPrivateAPIs is _**not**_ a project to document Apple's Private Apis and publi
 ### UIKit
 
 - <doc:UIAlertController>
+- <doc:UIApplication>
 - <doc:UIMenu>
 - <doc:UINavigationBar>
 - <doc:UINavigationItem>
