@@ -29,7 +29,7 @@ See the full documentation on [`setAlternateAppIcon(_:)`](https://developer.appl
 ## Adding the Function to Swift
 
 To make swift recognize this function, just bridge it with Objective-C. To do so, create a `UIApplication+Private.h` file with the following code: 
-```swift
+```objc
 #indef UIApplication_Private_h
 #define UIApplication_Private_h
 
@@ -43,7 +43,10 @@ To make swift recognize this function, just bridge it with Objective-C. To do so
 
 #endif
 ```
-Then, add `#import "UIApplication+Private.h"` a [bridging header file](https://developer.apple.com/documentation/swift/importing-objective-c-into-swift) (you may need to create one)
+Then, add the following  to a [bridging header file](https://developer.apple.com/documentation/swift/importing-objective-c-into-swift) (you may need to create one):
+```objc
+#import "UIApplication+Private.h"
+```
 
 ## Method
 
