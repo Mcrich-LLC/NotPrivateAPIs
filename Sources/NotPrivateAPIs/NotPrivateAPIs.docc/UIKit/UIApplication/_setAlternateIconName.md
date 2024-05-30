@@ -56,3 +56,9 @@ UIApplication.shared._setAlternateIconName(“AppIcon-2”) { error in
     print(“Error to set alternate icons:- \(error?.localizedDescription)”)
 }
 ```
+
+## See Also
+
+- <doc:setAlternateIconName>
+- <doc:LSApplicationProxy>
+- <doc:LSBundleProxy>

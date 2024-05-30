@@ -12,3 +12,9 @@ Not much is known about `LSBundleProxy`, but it seems to manage components of ap
 ## Topics
 
 - <doc:bundleProxyForCurrentProcess>
+
+## See Also
+
+- <doc:LSApplicationProxy>
+- <doc:setAlternateIconName>
+- <doc:_setAlternateIconName>

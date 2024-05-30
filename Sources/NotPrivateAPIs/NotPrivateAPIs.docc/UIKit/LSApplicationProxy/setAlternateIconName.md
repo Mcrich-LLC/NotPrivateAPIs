@@ -57,3 +57,9 @@ appProxy.setAlternateIconName(iconName) { success, error in
 As seen above, this function also requires the use of [`LSBundleProxy`](<doc:LSBundleProxy>) and [`bundleProxyForCurrentProcess()`](<doc:bundleProxyForCurrentProcess>).
 
 > Important: It is critical to note that unlike other variations of this function, `LSApplicationProxy` requires that the completion handler have a bool value first. This is assumed to be if the operation succeeded or not.
+
+## See Also
+
+- <doc:LSBundleProxy>
+- <doc:bundleProxyForCurrentProcess>
+- <doc:_setAlternateIconName>

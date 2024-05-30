@@ -38,3 +38,9 @@ We can create this constant to retrieve the [`LSApplicationProxy`](<doc:LSApplic
 ```swift
 let appProxy: LSApplicationProxy = LSBundleProxy.bundleProxyForCurrentProcess()
 ```
+
+## See Also
+
+- <doc:LSApplicationProxy>
+- <doc:setAlternateIconName>
+- <doc:_setAlternateIconName>
