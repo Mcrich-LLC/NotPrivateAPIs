@@ -26,6 +26,7 @@ jobs:
     - name: Build DocC
       run: |
         sh ./build-site.sh
+        echo "<script>window.location.href += \"/documentation/notprivateapis\"</script>" > Build/index.html;
     
     # - name: Prepare relative files
     #   run: |
