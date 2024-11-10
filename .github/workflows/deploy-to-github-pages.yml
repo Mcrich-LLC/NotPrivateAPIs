@@ -6,17 +6,12 @@ on:
         - 'v*'
     workflow_dispatch: # Allows manual triggering of the workflow
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build-and-deploy:
     permissions:
       contents: read
-      deployments: write
+      pages: write
+      id-token: write
     runs-on: macos-14
 
     steps:
