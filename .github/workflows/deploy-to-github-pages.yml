@@ -25,7 +25,14 @@ jobs:
 
     - name: Build DocC
       run: |
-        sh ./build-site.sh
+        swift package --allow-writing-to-directory ./ \
+            generate-documentation --target NotPrivateAPIs \
+            --disable-indexing \
+            --transform-for-static-hosting \
+            --experimental-enable-custom-templates \
+            --hosting-base-path / \
+            --output-path ./Build \
+
         echo "<script>window.location.href += \"/documentation/notprivateapis\"</script>" > Build/index.html;
     
     # - name: Prepare relative files
