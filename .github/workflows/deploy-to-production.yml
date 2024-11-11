@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Production
 
 on:
   push:
@@ -6,8 +6,12 @@ on:
       - 'v*'
   workflow_dispatch: # Allows manual triggering of the workflow
 
+concurrency:
+    group: "pages"
+    cancel-in-progress: true
+
 jobs:
-  build-and-deploy:
+  deploy-to-cloudflare:
     permissions:
       contents: read
       deployments: write
@@ -42,3 +46,47 @@ jobs:
         # Optional: Switch what branch you are publishing to.
         # By default this will be the branch which triggered this workflow
         branch: main
+  deploy-to-github-pages:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    runs-on: macos-14
+    environment:
+      # Must set to this for deploying to GitHub Pages
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Swift
+      uses: swift-actions/setup-swift@v2
+      with:
+        swift-version: '5.9' # Set the Swift version you need
+
+    - name: Build DocC
+      run: |
+        swift package --allow-writing-to-directory ./ \
+            generate-documentation --target NotPrivateAPIs \
+            --disable-indexing \
+            --transform-for-static-hosting \
+            --experimental-enable-custom-templates \
+            --hosting-base-path /NotPrivateAPIs \
+            --output-path ./Build \
+
+        echo "<script>window.location.href += \"/documentation/notprivateapis\"</script>" > Build/index.html;
+    
+    # - name: Prepare relative files
+    #   run: |
+    #     python3 ./path-replacement.py
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'Build'
+    - id: deployment
+      name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
+      
