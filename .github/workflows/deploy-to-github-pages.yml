@@ -5,6 +5,11 @@ on:
       tags:
         - 'v*'
     workflow_dispatch: # Allows manual triggering of the workflow
+    
+# Allow one concurrent deployment
+concurrency:
+    group: "pages"
+    cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -13,6 +18,10 @@ jobs:
       pages: write
       id-token: write
     runs-on: macos-14
+    environment:
+      # Must set to this for deploying to GitHub Pages
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
     - name: Checkout code
