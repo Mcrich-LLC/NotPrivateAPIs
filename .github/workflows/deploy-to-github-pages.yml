@@ -39,7 +39,7 @@ jobs:
             --disable-indexing \
             --transform-for-static-hosting \
             --experimental-enable-custom-templates \
-            --hosting-base-path / \
+            --hosting-base-path /NotPrivateAPIs \
             --output-path ./Build \
 
         echo "<script>window.location.href += \"/documentation/notprivateapis\"</script>" > Build/index.html;
