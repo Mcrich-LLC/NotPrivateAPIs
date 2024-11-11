@@ -7,9 +7,9 @@ on:
     workflow_dispatch: # Allows manual triggering of the workflow
     
 # Allow one concurrent deployment
-concurrency:
-    group: "pages"
-    cancel-in-progress: true
+#concurrency:
+#    group: "pages"
+#    cancel-in-progress: true
 
 jobs:
   build-and-deploy:
