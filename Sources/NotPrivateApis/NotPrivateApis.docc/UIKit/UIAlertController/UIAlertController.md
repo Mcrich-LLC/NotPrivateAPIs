@@ -29,3 +29,4 @@ Full Documentation [Here](https://developer.apple.com/documentation/uikit/UIAler
 
 - <doc:_setHeaderContentViewController>
 - <doc:contentViewController>
+- <doc:_separatedHeaderContentViewController>
