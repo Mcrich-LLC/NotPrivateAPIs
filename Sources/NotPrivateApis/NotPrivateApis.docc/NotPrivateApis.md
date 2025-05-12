@@ -16,7 +16,7 @@ NotPrivateAPIs is _**not**_ a project to document Apple's Private Apis and publi
 
 A private api is an api that a platform (in this case Apple) creates but attempts to hide from standard developers. This can be for a multitude of reasons including instability, volitilaty, and/or impending breaking changes.
 
-**BUT** a private api can also be powerful. If the world is your oyster, private apis make the galaxy your oyster. They can be very powerful and do a multitude of things. In the case of apple, most of these should be public apis instead of private.
+**BUT** a private api can also be powerful. If the world is your oyster, private apis make the galaxy your oyster. They can be very powerful and do a multitude of things. In the case of Apple, most of these should be public apis instead of private.
 
 ## Obfuscating Private API Usage
 
