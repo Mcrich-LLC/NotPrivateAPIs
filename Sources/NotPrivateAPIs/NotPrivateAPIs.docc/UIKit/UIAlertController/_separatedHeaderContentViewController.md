@@ -9,11 +9,11 @@ Use a separate view controller as a custom header for your alert content.
 
 ## Overview
 
-`_separatedHeaderContentViewController` is a private property of `UIAlertController` that allows you to assign a custom `UIViewController` to act as a header above the alert's main content.
+`_separatedHeaderContentViewController(_:)` is a private property of `UIAlertController` that allows you to assign a custom `UIViewController` to act as a header above the alert's main content.
 
 Unlike the public `setValue(_:forKey:)` approach for modifying `title` and `message`, this API lets you embed fully custom layouts — including images, labels, or any UIKit view — above the system alert buttons and actions, without needing to subclass or reimplement the entire alert.
 
-> Warning: It is unknown when `_separatedHeaderContentViewController` was introduced and exactly which operating systems/versions support it. Testing is required before release into production and this property may be removed in the future.
+> Warning: It is unknown when `_separatedHeaderContentViewController(_:)` was introduced and exactly which operating systems/versions support it. Testing is required before release into production and this property may be removed in the future.
 
 ![An example of this UI](_separatedHeaderContentViewController-Image)
 
