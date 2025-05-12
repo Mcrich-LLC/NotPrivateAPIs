@@ -16,6 +16,7 @@ This API was recently covered by [Seb Vidal](https://x.com/SebJVidal) in his blo
 > Warning: It is unknown when `_menuAccessoryViewProvider` was introduced and exactly which operating systems/versions support it. Testing is required before release into production, and `_menuAccessoryViewProvider` may be removed in the future.
 
 ![An example of this UI](_menuAccessoryViewProvider-Image)
+
 ## Method
 
 You can assign a block that returns a `UIView` to `_menuAccessoryViewProvider` using dynamic member lookup in Swift.
