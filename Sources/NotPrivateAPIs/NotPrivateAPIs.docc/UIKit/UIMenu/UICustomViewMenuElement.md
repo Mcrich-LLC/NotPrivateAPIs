@@ -2,8 +2,8 @@
 Include a custom element in your `UIMenu`
 
 @Metadata {
-    @TitleHeading("Instance Property")
-    @PageColor(green)
+    @TitleHeading("Class")
+    @PageColor(blue)
 }
 
 ## Overview

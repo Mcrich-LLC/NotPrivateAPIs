@@ -1,8 +1,8 @@
 # \_actionWithContentViewController(\_:style:handler:)
 
 @Metadata {
-    @TitleHeading("Type Method")
-    @PageColor(blue)
+    @TitleHeading("Instance Method")
+    @PageColor(red)
 }
 
 Create a custom `UIAlertAction` with an embedded view controller.

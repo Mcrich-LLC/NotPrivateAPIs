@@ -2,7 +2,7 @@
 
 @Metadata {
     @TitleHeading("Instance Property")
-    @PageColor(orange)
+    @PageColor(green)
 }
 
 Embed a custom view controller inside a `UIAlertController`.

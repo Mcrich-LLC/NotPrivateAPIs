@@ -1,8 +1,8 @@
 # \_separatedHeaderContentViewController(\_:)
 
 @Metadata {
-    @TitleHeading("Instance Property")
-    @PageColor(blue)
+    @TitleHeading("Instance Method")
+    @PageColor(red)
 }
 
 Use a separate view controller as a custom header for your alert content.

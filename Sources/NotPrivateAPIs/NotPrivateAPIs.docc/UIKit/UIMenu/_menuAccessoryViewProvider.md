@@ -2,7 +2,7 @@
 
 @Metadata {
     @TitleHeading("Instance Property")
-    @PageColor(blue)
+    @PageColor(green)
 }
 
 Enhance your context menu previews with accessory views.
