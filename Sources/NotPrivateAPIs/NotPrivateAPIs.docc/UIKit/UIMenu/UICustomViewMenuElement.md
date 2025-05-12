@@ -126,3 +126,7 @@ class CustomContentView: UICollectionReusableView {
     }
 }
 ```
+
+## Credits
+
+ - [Seb Vidal](https://x.com/SebJVidal)

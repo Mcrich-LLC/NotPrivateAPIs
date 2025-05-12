@@ -50,3 +50,7 @@ class ProfileButton: UIButton {
     }
 }
 ```
+
+## Credits
+
+ - [Seb Vidal](https://x.com/SebJVidal)

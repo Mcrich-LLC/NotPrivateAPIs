@@ -15,6 +15,10 @@ Not much is known about `LSBundleProxy`, but it seems to manage components of ap
 
 - <doc:bundleProxyForCurrentProcess>
 
+## Credits
+
+ - [Bryce Bostwick](https://bryce.co)
+
 ## See Also
 
 - <doc:LSApplicationProxy>

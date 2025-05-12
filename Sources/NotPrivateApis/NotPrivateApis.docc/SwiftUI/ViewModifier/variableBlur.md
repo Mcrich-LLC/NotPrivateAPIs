@@ -45,3 +45,7 @@ struct ContentView: View {
     }
 }
 ```
+
+## Credits
+
+ - [Sam Henri Gold](https://twitter.com/samhenrigold)

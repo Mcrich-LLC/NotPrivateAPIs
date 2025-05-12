@@ -39,6 +39,10 @@ We can create this constant to retrieve the [`LSApplicationProxy`](<doc:LSApplic
 let appProxy: LSApplicationProxy = LSBundleProxy.bundleProxyForCurrentProcess()
 ```
 
+## Credits
+
+ - [Bryce Bostwick](https://bryce.co)
+
 ## See Also
 
 - <doc:LSApplicationProxy>

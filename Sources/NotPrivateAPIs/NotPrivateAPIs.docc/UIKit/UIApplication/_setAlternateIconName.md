@@ -57,6 +57,10 @@ UIApplication.shared._setAlternateIconName(“AppIcon-2”) { error in
 }
 ```
 
+## Credits
+
+ - [Bryce Bostwick](https://bryce.co)
+
 ## See Also
 
 - <doc:setAlternateIconName>

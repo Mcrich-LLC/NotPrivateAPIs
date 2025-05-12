@@ -30,3 +30,7 @@ extension UINavigationItem {
     }
 }
 ```
+
+## Credits
+
+ - [Seb Vidal](https://x.com/SebJVidal)

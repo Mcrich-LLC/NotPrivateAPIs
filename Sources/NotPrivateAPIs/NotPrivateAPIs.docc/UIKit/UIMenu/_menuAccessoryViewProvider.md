@@ -68,3 +68,7 @@ extension ViewController: UIContextMenuInteractionDelegate {
 ## Example
 
 For a complete project example, check out [Seb Vidal](https://x.com/SebJVidal)'s [GitHub Repository](https://github.com/sebjvidal/_UIContextMenuAccessoryView-Demo)
+
+## Credits
+
+ - [Seb Vidal](https://x.com/SebJVidal)

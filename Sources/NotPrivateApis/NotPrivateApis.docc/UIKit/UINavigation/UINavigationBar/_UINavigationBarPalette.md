@@ -38,3 +38,7 @@ class ViewController: UITableViewController {
     }
 }
 ```
+
+## Credits
+
+ - [Seb Vidal](https://x.com/SebJVidal)

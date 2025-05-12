@@ -15,6 +15,10 @@ Not much is known about `LSApplicationProxy`, but it seems to manage many compon
 
 - <doc:setAlternateIconName>
 
+## Credits
+
+ - [Bryce Bostwick](https://bryce.co)
+
 ## See Also
 
 - <doc:LSBundleProxy>

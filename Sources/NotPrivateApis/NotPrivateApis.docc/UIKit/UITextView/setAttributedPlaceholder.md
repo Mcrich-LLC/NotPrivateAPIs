@@ -42,3 +42,7 @@ class TextViewController: UIViewController (
     }
 }
 ```
+
+## Credits
+
+ - [Seb Vidal](https://x.com/SebJVidal)
