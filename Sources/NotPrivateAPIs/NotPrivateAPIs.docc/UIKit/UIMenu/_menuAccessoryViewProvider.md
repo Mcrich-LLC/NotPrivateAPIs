@@ -1,4 +1,4 @@
-# \_menuAccessoryViewProvider
+# \_menuAccessoryViewProvider(\_:)
 
 @Metadata {
     @TitleHeading("Instance Property")
