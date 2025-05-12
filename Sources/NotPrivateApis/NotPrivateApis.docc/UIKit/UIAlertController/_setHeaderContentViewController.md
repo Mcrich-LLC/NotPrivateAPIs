@@ -108,3 +108,7 @@ class CalendarViewController: UIViewController {
     }
 }
 ```
+
+## Credits
+
+ - [Seb Vidal](https://x.com/SebJVidal)
