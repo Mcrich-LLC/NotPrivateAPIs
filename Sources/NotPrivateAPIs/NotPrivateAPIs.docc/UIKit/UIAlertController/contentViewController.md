@@ -15,6 +15,8 @@ This property is used internally by Apple in various system alerts, such as perm
 
 > Warning: It is unknown when `contentViewController` was added to `UIAlertController` and exactly which operating systems/versions support it. Testing is required before release into production and `contentViewController` may be removed in the future.
 
+![An example of this UI](contentViewController-Image)
+
 ## Method
 
 You can access `contentViewController` through Swift’s key-value coding interface:
@@ -23,10 +25,14 @@ You can access `contentViewController` through Swift’s key-value coding interf
 extension UIAlertController {
     var contentViewController: UIViewController? {
         get {
-            return value(forKey: "contentViewController") as? UIViewController
-        }
-        set {
-            setValue(newValue, forKey: "contentViewController")
+            let key = "contentViewController"
+            let selector = NSSelectorFromString(key)
+            guard responds(to: selector) else { return nil }
+            return value(forKey: key) as? UIViewController
+        } set {
+            let selector = NSSelectorFromString("setContentViewController:")
+            guard responds(to: selector) else { return }
+            perform(selector, with: newValue)
         }
     }
 }
@@ -39,26 +45,17 @@ This dynamic property wrapper allows you to safely interact with the undocumente
 This example demonstrates embedding a custom image view controller inside a `UIAlertController`:
 
 ```swift
-final class ImageViewController: UIViewController {
-    override func loadView() {
-        view = UIImageView(image: .init(systemName: "photo.fill"))
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.tintColor = .systemPink
+class ViewController: UIViewController {
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let contentViewController = ContentViewController()
+        let okAction = UIAlertAction(title: "OK", style: .default)
+        let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: .alert)
+        alertController.contentViewController = contentViewController
+        alertController.addAction(okAction)
+        present(alertController, animated: true)
     }
 }
-```
-
-Now embed the custom content in your alert:
-
-```swift
-let alert = UIAlertController(title: "Title", message: "Message", preferredStyle: .alert)
-alert.contentViewController = ImageViewController()
-alert.addAction(.init(title: "OK", style: .default))
-
-present(alert, animated: true)
 ```
 
 This displays a simple alert with a bold system image embedded under the title/message content area.
