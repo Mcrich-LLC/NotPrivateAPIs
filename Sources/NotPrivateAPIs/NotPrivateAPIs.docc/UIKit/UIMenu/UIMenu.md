@@ -45,3 +45,4 @@ Full Documentation [Here](https://developer.apple.com/documentation/uikit/uimenu
 ## Topics
 
 - <doc:UICustomViewMenuElement>
+- <doc:_menuAccessoryViewProvider>
