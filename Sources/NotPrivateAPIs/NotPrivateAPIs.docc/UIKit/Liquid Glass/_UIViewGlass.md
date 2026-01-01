@@ -44,7 +44,7 @@ public func _UIViewGlass(variant: Int) -> NSObject? {
 ```
 
 ## Sample Project
-[집돌이](https://x.com/_silgen_name) made an incredibly useful sample project containing a UI interface to mess with these variants and properties. You can check it out [here](https://github.com/pookjw/MiscellaneousWWDC25/tree/0ca4dd082807b8626d204c790f4b8d7c723cc46d).
+[집돌이](https://x.com/_silgen_name) made an incredibly useful sample project containing a UI interface to mess with these variants and properties. You can check it out [here](https://github.com/pookjw/MiscellaneousWWDC25/tree/main/MiscellaneousUIKit).
 
 ## Properties
 
