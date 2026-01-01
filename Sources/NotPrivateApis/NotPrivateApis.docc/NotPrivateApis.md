@@ -64,11 +64,11 @@ At compile time, PrivateObfuscationMacro will do the heavy lifting for you and c
 - <doc:UIAlertController>
 - <doc:UIApplication>
 - <doc:UIMenu>
+- <doc:UINavigationController>
 - <doc:UINavigationBar>
 - <doc:UINavigationItem>
 - <doc:UITextView>
 - <doc:UIImage>
-- <doc:UINavigationController>
 - <doc:UISheetPresentationController>
 
 ### SwiftUI
