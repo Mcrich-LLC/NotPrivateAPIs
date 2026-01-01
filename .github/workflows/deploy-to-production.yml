@@ -2,8 +2,8 @@ name: Deploy to Production
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
   workflow_dispatch: # Allows manual triggering of the workflow
 
 concurrency:
