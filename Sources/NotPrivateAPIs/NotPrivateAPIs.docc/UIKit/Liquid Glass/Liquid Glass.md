@@ -15,3 +15,4 @@ Full Documentation [Here](https://developer.apple.com/documentation/TechnologyOv
 ## Topics
 
 - <doc:_UIViewGlass>
+- <doc:UIGlassEffect>
