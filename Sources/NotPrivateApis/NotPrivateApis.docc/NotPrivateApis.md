@@ -58,6 +58,7 @@ At compile time, PrivateObfuscationMacro will do the heavy lifting for you and c
 
 ### UIKit
 
+- <doc:Liquid-Glass>
 - <doc:LSApplicationProxy>
 - <doc:LSBundleProxy>
 - <doc:UIAlertController>
