@@ -67,6 +67,7 @@ At compile time, PrivateObfuscationMacro will do the heavy lifting for you and c
 - <doc:UINavigationBar>
 - <doc:UINavigationItem>
 - <doc:UITextView>
+- <doc:UISheetPresentationController>
 
 ### SwiftUI
 
