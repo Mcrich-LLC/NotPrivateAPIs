@@ -72,6 +72,7 @@ At compile time, PrivateObfuscationMacro will do the heavy lifting for you and c
 
 ### SwiftUI
 
+- <doc:Image>
 - <doc:ViewModifier>
 
 ### NSObject
