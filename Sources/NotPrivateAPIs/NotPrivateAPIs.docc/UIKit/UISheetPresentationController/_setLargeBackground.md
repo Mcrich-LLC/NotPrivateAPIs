@@ -15,7 +15,7 @@ This private method allows you to set a custom background view that is displayed
 
 ### Parameters
 
-- `object`: The background view to display. This can be a `UIColor` or a [`_UIViewGlass`](<doc:_UIViewGlass>) (See <doc:Liquid-Glass>).
+- `object`: The background view to display. This can be a `UIColor` or a `_UIViewGlass` (See <doc:Liquid-Glass>).
 
 ## Example
 
