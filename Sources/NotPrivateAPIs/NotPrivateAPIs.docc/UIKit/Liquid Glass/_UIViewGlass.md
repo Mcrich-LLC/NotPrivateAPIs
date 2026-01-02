@@ -25,7 +25,7 @@ To generate a `_UIViewGlass` object, you can use the function below:
 ```swift
 public func _UIViewGlass(variant: Int) -> NSObject? {
     let glassClass = objc_lookUpClass("_UIViewGlass")! as AnyObject
-    let glass = glassClass._alloc()._init(variant: 3)
+    let glass = glassClass._alloc()._init(variant: variant)
     return glass as? NSObject
 }
 
