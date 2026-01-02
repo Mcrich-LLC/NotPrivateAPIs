@@ -24,22 +24,23 @@ To generate a `_UIViewGlass` object, you can use the function below:
 
 ```swift
 public func _UIViewGlass(variant: Int) -> NSObject? {
-    guard let glassClass = NSClassFromString("_UIViewGlass") as? NSObject.Type else {
-        return nil
+    let glassClass = objc_lookUpClass("_UIViewGlass")! as AnyObject
+    let glass = glassClass._alloc()._init(variant: 3)
+    return glass as? NSObject
+}
+
+/// Registers Objective-C methods Swift needs.
+fileprivate final class PrivateSelectors: NSObject {
+
+    @objc(alloc)
+    func _alloc() -> AnyObject {
+        fatalError("Do not call")
     }
-    
-    let selector = NSSelectorFromString("initWithVariant:")
-    let allocated = glassClass.perform(NSSelectorFromString("alloc")).takeUnretainedValue() as! NSObject
-    
-    guard allocated.responds(to: selector) else {
-        return nil
+
+    @objc(initWithVariant:)
+    func _init(variant: Int) -> AnyObject {
+        fatalError("Do not call")
     }
-    
-    let method = allocated.method(for: selector)
-    typealias InitWithVariantFunc = @convention(c) (NSObject, Selector, Int) -> NSObject?
-    let initWithVariant = unsafeBitCast(method, to: InitWithVariantFunc.self)
-    
-    return initWithVariant(allocated, selector, variant)
 }
 ```
 
