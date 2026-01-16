@@ -12,9 +12,9 @@ The backbone of Liquid Glass
 
 ## Overview
 
-`_UIViewGlass` is presumably the backbone of Apple's Liquid Glass. To use it directly, you must specify a variant. Currently there are 9 variants known:
+`_UIViewGlass` is presumably the backbone of Apple's Liquid Glass. To use it directly, you must specify a variant. Currently there are 20 variants known, but here is a picture of the first 9:
 
-![An example of the variants](_UIViewGlass-variants)
+![An example of the variants](_UIViewGlass-variants.png)
 
 > Warning: _UIViewGlass is a Liquid Glass element and should only be used where Liquid Glass is supported by the operating system. Otherwise, there may be runtime errors.
 
