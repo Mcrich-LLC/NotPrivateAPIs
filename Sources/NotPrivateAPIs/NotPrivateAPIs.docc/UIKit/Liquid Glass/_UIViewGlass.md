@@ -45,7 +45,11 @@ fileprivate final class PrivateSelectors: NSObject {
 ```
 
 ## Sample Project
+### iOS
 [집돌이](https://x.com/_silgen_name) made an incredibly useful sample project containing a UI interface to mess with these variants and properties. You can check it out [here](https://github.com/pookjw/MiscellaneousWWDC25/tree/main/MiscellaneousUIKit).
+
+### MacOS
+The variants appear different on MacOS and [Julian Windeck](https://x.com/julianwindeck) has made a MacOS specific demo project. You can check that out [here](https://github.com/JulianWindeck/liquid-glass/tree/main).
 
 ## Properties
 
