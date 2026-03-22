@@ -18,6 +18,8 @@ The backbone of Liquid Glass
 
 > Warning: _UIViewGlass is a Liquid Glass element and should only be used where Liquid Glass is supported by the operating system. Otherwise, there may be runtime errors.
 
+A demo of all of this can be found on [GitHub](https://github.com/Mcrich23/GlassVariants).
+
 ## Usage
 
 To generate a `_UIViewGlass` object, you can use the function below:
